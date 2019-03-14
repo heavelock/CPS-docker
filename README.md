@@ -1,6 +1,6 @@
 # Docker Image for Computer Programs in Seismology
 
-###Warning
+### Warning
 This project is a playground project. The Computer Programs in Seismology were written by Dr. Robert Hermann (Saint Louis University) and can be downloaded through http://www.eas.slu.edu/eqc/eqccps.html. Dr. Hermann can be reached at herrmarb@slu.edu.
 
 ## Instructions
@@ -18,7 +18,7 @@ Docker will download the prepared image and run it. It will automatically start 
 
 Image has installed Obspy, Numpy, Scipy, Matplotlib and few more libraries through standard miniconda3 installation. You can manage it through standard `conda` command. 
 
-If you prefer to use ZSH over standard bash, I have installed ZSH together with Oh-My-ZSH. Just open terminal and type `zsh` to run it.
+If you prefer to use ZSH over standard bash, image has installed ZSH together with Oh-My-ZSH. Just open terminal and type `zsh` to run it.
 
 ### Connecting with local resources
 If you want to use some of your local resources you have to use a `-v` option as follows
