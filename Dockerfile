@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM continuumio/anaconda3:latest
 
 RUN apt update \
     && apt install -y \
@@ -10,7 +10,9 @@ RUN apt update \
     gawk \
     gv \
     wget \
-    imagemagick 
+    imagemagick \
+    vim \
+    htop 
 
 RUN apt install -y zsh \
     && chsh -s $(which zsh) \
